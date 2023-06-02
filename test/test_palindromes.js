@@ -19,7 +19,7 @@ describe("Palindromes", function() {
   });
   
   it("should return false if a phrase is NOT a palindrome", function() {
-    const phrase = "this is not a palindrome"
+    const phrase = "this is not a palindrome";
     assert.isFalse(isPalindrome(phrase));
   });
 });
